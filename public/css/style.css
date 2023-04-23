@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Unbounded:wght@400;700&display=swap');
+
+body{
+    font-family: 'Unbounded', cursive;
+
+}
+
+h1{
+    color: red;
+}
+
+.right-side{
+    border: 2px solid black;
+    
+}
+
+.right-side-img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}

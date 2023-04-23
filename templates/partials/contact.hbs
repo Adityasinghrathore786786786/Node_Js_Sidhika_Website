@@ -1,0 +1,40 @@
+<div class="container-fluid my-5" id="contactId">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <h1 class="text-center main-heading">Contact Us</h1>
+      <p class="text-center sub-heading">We will be happy to help you</p>
+      <div class="row">
+
+        <form action="/contact" method="POST">
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label"> Name</label>
+            <input
+              type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Enter your Name" name="name"
+            />
+            
+          </div>
+          <div class="mb-3">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input
+              type="email" class="form-control"id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email" name="email"
+            />
+            
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Phone</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter your Ph. no" name="phone"
+            />
+          </div>
+          <div class="mb-3">
+         <label for="exampleFormControlTextarea1" class="form-label">Comment Your Query</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="commentQuery"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</div>
